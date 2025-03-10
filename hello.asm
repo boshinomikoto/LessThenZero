@@ -6,7 +6,7 @@ len equ $ -message
 section .text
 
 _start:
-    mov rbx, 10;
+    mov rbx, 10
     mov rsi, -10
     add rsi, rbx
     js escape
